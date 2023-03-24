@@ -1,38 +1,40 @@
 {
-  "type": "object",
-  "required": [
-    "args",
-    "data",
-    "files",
-    "form",
-    "headers",
-    "json",
-    "url"
-  ],
-  "additionalProperties": false,
-  "properties": {
-    "args": {
-      "type": "object"
-    },
-    "data": {
-      "type": "string",
-      "pattern": "^some data$"
-    },
-    "files": {
-      "type": "object"
-    },
-    "form": {
-      "type": "object"
-    },
-    "headers": {
-      "type": "object"
-    },
-    "json": {
-      "type": "null"
-    },
-    "url": {
-    "type": "string"
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+      "args",
+      "data",
+      "files",
+      "form",
+      "headers",
+      "json",
+      "url"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "args": {
+        "type": "object"
+      },
+      "data": {
+        "type": "string",
+        "pattern": "^some data$"
+      },
+      "files": {
+        "type": "object"
+      },
+      "form": {
+        "type": "object"
+      },
+      "headers": {
+        "type": "object"
+      },
+      "json": {
+        "type": "null"
+      },
+      "url": {
+        "type": "string"
+      }
+    }
   }
-}
-}
+
 

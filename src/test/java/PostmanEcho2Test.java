@@ -19,11 +19,9 @@ public class PostmanEcho2Test {
                 .then()
                 .statusCode(200)
                 .body("data", equalTo("some data"))
-                .body(matchesJsonSchemaInClasspath("postmanEcho.schema.json"))
+                .body(matchesJsonSchemaInClasspath("PostmanEcho.schema.json"))
         ;
     }
-
-
 
 }
 
