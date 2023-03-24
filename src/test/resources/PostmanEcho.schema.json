@@ -27,9 +27,12 @@
     "headers": {
       "type": "object"
     },
-    "json": "null"
-  },
-  "url": {
+    "json": {
+      "type": "null"
+    },
+    "url": {
     "type": "string"
   }
 }
+}
+
